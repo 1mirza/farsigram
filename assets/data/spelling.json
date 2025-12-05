@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "word_part1": "م",
+    "word_part2": "طفی",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "نامی پسرانه (برگزیده)"
+  },
+  {
+    "id": 2,
+    "word_part1": "غ",
+    "word_part2": "ل",
+    "correct": "ا",
+    "options": ["ا", "ع"],
+    "meaning": "پاسخ نادرست"
+  },
+  {
+    "id": 3,
+    "word_part1": "ل",
+    "word_part2": "ت",
+    "correct": "ذ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "خواری و پستی"
+  },
+  {
+    "id": 4,
+    "word_part1": "",
+    "word_part2": "دا",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "آواز، بانگ"
+  },
+  {
+    "id": 5,
+    "word_part1": "ب",
+    "word_part2": "ر",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "بینایی"
+  },
+  {
+    "id": 6,
+    "word_part1": "ا",
+    "word_part2": "تراعات",
+    "correct": "خ",
+    "options": ["خ", "ق", "غ"],
+    "meaning": "نوآوری ها"
+  },
+  {
+    "id": 7,
+    "word_part1": "ا",
+    "word_part2": "تار",
+    "correct": "ع",
+    "options": ["ا", "ع"],
+    "meaning": "ارزش، آبرو"
+  },
+  {
+    "id": 8,
+    "word_part1": "ا",
+    "word_part2": "تدال",
+    "correct": "ع",
+    "options": ["ا", "ع"],
+    "meaning": "میانه روی"
+  },
+  {
+    "id": 9,
+    "word_part1": "ا",
+    "word_part2": "تراض",
+    "correct": "ع",
+    "options": ["ا", "ع"],
+    "meaning": "ایراد گرفتن"
+  },
+  {
+    "id": 10,
+    "word_part1": "ا",
+    "word_part2": "تمار",
+    "correct": "س",
+    "options": ["س", "ص", "ث"],
+    "meaning": "استعمار"
+  },
+  {
+    "id": 11,
+    "word_part1": "ا",
+    "word_part2": "رار",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "پافشاری"
+  },
+  {
+    "id": 12,
+    "word_part1": "ا",
+    "word_part2": "ول",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "قاعده ها"
+  },
+  {
+    "id": 13,
+    "word_part1": "ا",
+    "word_part2": "راف",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "کرانه ها"
+  },
+  {
+    "id": 14,
+    "word_part1": "ا",
+    "word_part2": "هر",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "آشکار"
+  },
+  {
+    "id": 15,
+    "word_part1": "ا",
+    "word_part2": "تیاق",
+    "correct": "ش",
+    "options": ["ش", "خ"],
+    "meaning": "میل و رغبت"
+  },
+  {
+    "id": 16,
+    "word_part1": "ا",
+    "word_part2": "طراب",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "پریشانی"
+  },
+  {
+    "id": 17,
+    "word_part1": "ت",
+    "word_part2": "مین",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "ضمانت کردن"
+  },
+  {
+    "id": 18,
+    "word_part1": "ت",
+    "word_part2": "اهر",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "خودنمایی"
+  },
+  {
+    "id": 19,
+    "word_part1": "ت",
+    "word_part2": "ور",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "خیال کردن"
+  },
+  {
+    "id": 20,
+    "word_part1": "ت",
+    "word_part2": "نیف",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "کتاب نوشتن"
+  },
+  {
+    "id": 21,
+    "word_part1": "ت",
+    "word_part2": "میم",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "اراده کردن"
+  },
+  {
+    "id": 22,
+    "word_part1": "ت",
+    "word_part2": "ویر",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "شکل و عکس"
+  },
+  {
+    "id": 23,
+    "word_part1": "ت",
+    "word_part2": "اد",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "مخالف بودن"
+  },
+  {
+    "id": 24,
+    "word_part1": "ت",
+    "word_part2": "عیف",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "ناتوان کردن"
+  },
+  {
+    "id": 25,
+    "word_part1": "ت",
+    "word_part2": "بیق",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "مطابقت دادن"
+  },
+  {
+    "id": 26,
+    "word_part1": "ت",
+    "word_part2": "فیل",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "سربار"
+  },
+  {
+    "id": 27,
+    "word_part1": "ت",
+    "word_part2": "راوت",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "شادابی"
+  },
+  {
+    "id": 28,
+    "word_part1": "ت",
+    "word_part2": "عم",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "مزه"
+  },
+  {
+    "id": 29,
+    "word_part1": "ت",
+    "word_part2": "عمه",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "خوراک"
+  },
+  {
+    "id": 30,
+    "word_part1": "ت",
+    "word_part2": "نین",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "صدا"
+  },
+  {
+    "id": 31,
+    "word_part1": "ت",
+    "word_part2": "مع",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "زیاده خواهی"
+  },
+  {
+    "id": 32,
+    "word_part1": "ت",
+    "word_part2": "پان",
+    "correct": "پ",
+    "options": ["پ", "ب"],
+    "meaning": "لرزان"
+  },
+  {
+    "id": 33,
+    "word_part1": "ج",
+    "word_part2": "اب",
+    "correct": "ذ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "کشنده، گیرا"
+  },
+  {
+    "id": 34,
+    "word_part1": "ج",
+    "word_part2": "ات",
+    "correct": "ر",
+    "options": ["ر", "ل"],
+    "meaning": "شجاعت"
+  },
+  {
+    "id": 35,
+    "word_part1": "خا",
+    "word_part2": "ه",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "ویژه"
+  },
+  {
+    "id": 36,
+    "word_part1": "خا",
+    "word_part2": "ر",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "یاد، ذهن"
+  },
+  {
+    "id": 37,
+    "word_part1": "خ",
+    "word_part2": "لت",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "ویژگی"
+  },
+  {
+    "id": 38,
+    "word_part1": "خ",
+    "word_part2": "وص",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "ویژه بودن"
+  },
+  {
+    "id": 39,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ر",
+    "options": ["ر", "ل"],
+    "meaning": "بخشندگی"
+  },
+  {
+    "id": 40,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ز",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "کار دشوار"
+  },
+  {
+    "id": 41,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ت",
+    "options": ["ت", "ط"],
+    "meaning": "رنج"
+  },
+  {
+    "id": 42,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ح",
+    "options": ["ح", "ه"],
+    "meaning": "نیکویی"
+  },
+  {
+    "id": 43,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "خ",
+    "options": ["خ", "ق"],
+    "meaning": "پایان"
+  },
+  {
+    "id": 44,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ق",
+    "options": ["خ", "ق"],
+    "meaning": "قیمت"
+  },
+  {
+    "id": 45,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ش",
+    "options": ["ش", "س"],
+    "meaning": "ارزش"
+  },
+  {
+    "id": 46,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ع",
+    "options": ["ع", "ا"],
+    "meaning": "بزرگی"
+  },
+  {
+    "id": 47,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "نگهبانی"
+  },
+  {
+    "id": 48,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ه",
+    "options": ["ح", "ه"],
+    "meaning": "اراده"
+  },
+  {
+    "id": 49,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ن",
+    "options": ["ن", "م"],
+    "meaning": "نعمت"
+  },
+  {
+    "id": 50,
+    "word_part1": "م",
+    "word_part2": "مت",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "بزرگی"
+  },
+  {
+    "id": 51,
+    "word_part1": "ص",
+    "word_part2": "دا",
+    "correct": "د",
+    "options": ["د", "ز"],
+    "meaning": "بانگ"
+  },
+  {
+    "id": 52,
+    "word_part1": "ص",
+    "word_part2": "یق",
+    "correct": "د",
+    "options": ["د", "ز"],
+    "meaning": "دوست"
+  },
+  {
+    "id": 53,
+    "word_part1": "ص",
+    "word_part2": "ف",
+    "correct": "د",
+    "options": ["د", "ز"],
+    "meaning": "صدف"
+  },
+  {
+    "id": 54,
+    "word_part1": "ص",
+    "word_part2": "ر",
+    "correct": "ب",
+    "options": ["ب", "پ"],
+    "meaning": "شکیبایی"
+  },
+  {
+    "id": 55,
+    "word_part1": "ض",
+    "word_part2": "ر",
+    "correct": "ر",
+    "options": ["ر", "ز"],
+    "meaning": "زیان"
+  },
+  {
+    "id": 56,
+    "word_part1": "ط",
+    "word_part2": "ور",
+    "correct": "ن",
+    "options": ["ن", "م"],
+    "meaning": "شوخی"
+  },
+  {
+    "id": 57,
+    "word_part1": "ط",
+    "word_part2": "اوت",
+    "correct": "ر",
+    "options": ["ر", "ل"],
+    "meaning": "شادابی"
+  },
+  {
+    "id": 58,
+    "word_part1": "ظ",
+    "word_part2": "ر",
+    "correct": "ه",
+    "options": ["ح", "ه"],
+    "meaning": "پشت"
+  },
+  {
+    "id": 59,
+    "word_part1": "ع",
+    "word_part2": "یم",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "بزرگ"
+  },
+  {
+    "id": 60,
+    "word_part1": "ق",
+    "word_part2": "یم",
+    "correct": "د",
+    "options": ["د", "ذ"],
+    "meaning": "کهنه"
+  },
+  {
+    "id": 61,
+    "word_part1": "ک",
+    "word_part2": "یف",
+    "correct": "ث",
+    "options": ["س", "ص", "ث"],
+    "meaning": "بسیار"
+  },
+  {
+    "id": 62,
+    "word_part1": "ل",
+    "word_part2": "یف",
+    "correct": "ط",
+    "options": ["ت", "ط"],
+    "meaning": "نرم"
+  },
+  {
+    "id": 63,
+    "word_part1": "م",
+    "word_part2": "هت",
+    "correct": "ب",
+    "options": ["ب", "پ"],
+    "meaning": "شگفت زده"
+  },
+  {
+    "id": 64,
+    "word_part1": "م",
+    "word_part2": "ال",
+    "correct": "ث",
+    "options": ["س", "ص", "ث"],
+    "meaning": "مانند"
+  },
+  {
+    "id": 65,
+    "word_part1": "م",
+    "word_part2": "ور",
+    "correct": "س",
+    "options": ["س", "ص", "ث"],
+    "meaning": "پوشیده"
+  },
+  {
+    "id": 66,
+    "word_part1": "م",
+    "word_part2": "ور",
+    "correct": "ث",
+    "options": ["س", "ص", "ث"],
+    "meaning": "نوشته شده"
+  },
+  {
+    "id": 67,
+    "word_part1": "م",
+    "word_part2": "ور",
+    "correct": "ش",
+    "options": ["س", "ش"],
+    "meaning": "نامدار"
+  },
+  {
+    "id": 68,
+    "word_part1": "م",
+    "word_part2": "ور",
+    "correct": "ن",
+    "options": ["ن", "م"],
+    "meaning": "منع شده"
+  },
+  {
+    "id": 69,
+    "word_part1": "م",
+    "word_part2": "ون",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "محتوا"
+  },
+  {
+    "id": 70,
+    "word_part1": "م",
+    "word_part2": "لم",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "ستمدیده"
+  },
+  {
+    "id": 71,
+    "word_part1": "م",
+    "word_part2": "اهر",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "نشانه ها"
+  },
+  {
+    "id": 72,
+    "word_part1": "م",
+    "word_part2": "رو",
+    "correct": "خ",
+    "options": ["خ", "ق"],
+    "meaning": "حقیر"
+  },
+  {
+    "id": 73,
+    "word_part1": "م",
+    "word_part2": "ض",
+    "correct": "ح",
+    "options": ["ح", "ه"],
+    "meaning": "خالص"
+  },
+  {
+    "id": 74,
+    "word_part1": "م",
+    "word_part2": "ر",
+    "correct": "ق",
+    "options": ["خ", "ق"],
+    "meaning": "جایگاه"
+  },
+  {
+    "id": 75,
+    "word_part1": "م",
+    "word_part2": "س",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "پاک"
+  },
+  {
+    "id": 76,
+    "word_part1": "م",
+    "word_part2": "دم",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "گرامی"
+  },
+  {
+    "id": 77,
+    "word_part1": "م",
+    "word_part2": "ت",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "زمان"
+  },
+  {
+    "id": 78,
+    "word_part1": "م",
+    "word_part2": "ود",
+    "correct": "ص",
+    "options": ["س", "ص", "ث"],
+    "meaning": "هدف"
+  },
+  {
+    "id": 79,
+    "word_part1": "ن",
+    "word_part2": "رت",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "تماشا"
+  },
+  {
+    "id": 80,
+    "word_part1": "ن",
+    "word_part2": "م",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "آراستگی"
+  },
+  {
+    "id": 81,
+    "word_part1": "ن",
+    "word_part2": "یر",
+    "correct": "ظ",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "مانند"
+  },
+  {
+    "id": 82,
+    "word_part1": "ن",
+    "word_part2": "ه",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "پول رایج"
+  },
+  {
+    "id": 83,
+    "word_part1": "ن",
+    "word_part2": "مت",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "بیماری"
+  },
+  {
+    "id": 84,
+    "word_part1": "ن",
+    "word_part2": "ض",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "شکستن"
+  },
+  {
+    "id": 85,
+    "word_part1": "ن",
+    "word_part2": "ش",
+    "correct": "ق",
+    "options": ["غ", "ق"],
+    "meaning": "تصویر"
+  },
+  {
+    "id": 86,
+    "word_part1": "و",
+    "word_part2": "ع",
+    "correct": "ض",
+    "options": ["ز", "ذ", "ض", "ظ"],
+    "meaning": "حالتی در نماز"
+  },
+  {
+    "id": 87,
+    "word_part1": "ه",
+    "word_part2": "وم",
+    "correct": "ج",
+    "options": ["ج", "ژ"],
+    "meaning": "حمله"
+  },
+  {
+    "id": 88,
+    "word_part1": "ی",
+    "word_part2": "اس",
+    "correct": "أ",
+    "options": ["ا", "أ"],
+    "meaning": "ناامیدی"
+  },
+  {
+    "id": 89,
+    "word_part1": "م",
+    "word_part2": "هول",
+    "correct": "ج",
+    "options": ["ج", "ز"],
+    "meaning": "ناشناخته"
+  },
+  {
+    "id": 90,
+    "word_part1": "ا",
+    "word_part2": "طراب",
+    "correct": "ض",
+    "options": ["ض", "ظ", "ز"],
+    "meaning": "نگرانی"
+  },
+  {
+    "id": 91,
+    "word_part1": "ا",
+    "word_part2": "محلال",
+    "correct": "ض",
+    "options": ["ض", "ظ", "ز"],
+    "meaning": "نابودی"
+  },
+  {
+    "id": 92,
+    "word_part1": "ت",
+    "word_part2": "مین",
+    "correct": "ض",
+    "options": ["ض", "ظ", "ز"],
+    "meaning": "ضمانت"
+  },
+  {
+    "id": 93,
+    "word_part1": "ا",
+    "word_part2": "طرار",
+    "correct": "ض",
+    "options": ["ض", "ظ", "ز"],
+    "meaning": "ناچاری"
+  },
+  {
+    "id": 94,
+    "word_part1": "ا",
+    "word_part2": "تکاک",
+    "correct": "ص",
+    "options": ["ص", "س", "ث"],
+    "meaning": "ساییدگی"
+  },
+  {
+    "id": 95,
+    "word_part1": "م",
+    "word_part2": "احب",
+    "correct": "ص",
+    "options": ["ص", "س", "ث"],
+    "meaning": "هم صحبت"
+  },
+  {
+    "id": 96,
+    "word_part1": "م",
+    "word_part2": "لحت",
+    "correct": "ص",
+    "options": ["ص", "س", "ث"],
+    "meaning": "شایستگی"
+  },
+  {
+    "id": 97,
+    "word_part1": "ت",
+    "word_part2": "ویب",
+    "correct": "ص",
+    "options": ["ص", "س", "ث"],
+    "meaning": "تایید کردن"
+  },
+  {
+    "id": 98,
+    "word_part1": "ح",
+    "word_part2": "رت",
+    "correct": "ض",
+    "options": ["ض", "ظ", "ز"],
+    "meaning": "حضور"
+  },
+  {
+    "id": 99,
+    "word_part1": "ت",
+    "word_part2": "اهر",
+    "correct": "ظ",
+    "options": ["ظ", "ض", "ز"],
+    "meaning": "وانمود کردن"
+  },
+  {
+    "id": 100,
+    "word_part1": "ا",
+    "word_part2": "هار",
+    "correct": "ظ",
+    "options": ["ظ", "ض", "ز"],
+    "meaning": "آشکار کردن"
+  }
+]
