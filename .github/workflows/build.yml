@@ -1,4 +1,4 @@
-name: Build Android APK and AAB
+name: Step-by-Step Android Build
 
 on:
   push:
@@ -12,48 +12,66 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      # مرحله ۱: دریافت کدها از ریپازیتوری
+      - name: 1. Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Java
+      # مرحله ۲: تنظیم نسخه جاوا
+      - name: 2. Setup Java JDK
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Set up Flutter
+      # مرحله ۳: نصب فلاتر
+      - name: 3. Setup Flutter SDK
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.x'
           channel: 'stable'
 
-      - name: Decode Keystore
-        run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/release-keystore.jks
+      # مرحله ۴: نمایش نسخه‌ها برای اطمینان از سلامت محیط
+      - name: 4. Check Flutter Environment
+        run: flutter doctor -v
 
-      - name: Get dependencies
+      # مرحله ۵: دریافت پکیج‌های پروژه (pubspec.yaml)
+      - name: 5. Get Dependencies
         run: flutter pub get
 
-      - name: Build App Bundle (AAB)
-        run: |
-          flutter build appbundle --release \
-            --build-name=1.0.0 \
-            --build-number=$GITHUB_RUN_NUMBER
+      # مرحله ۶: بررسی خطاهای سینتکس و کدهای دارت (از جمله main.dart)
+      - name: 6. Analyze Dart Code & main.dart
+        run: flutter analyze
 
-      - name: Build APK
+      # مرحله ۷: رمزگشایی کلید امضا
+      - name: 7. Decode Keystore
+        run: |
+          mkdir -p android/app
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/release-keystore.jks
+
+      # مرحله ۸: ساخت خروجی APK
+      - name: 8. Build APK (Release)
         run: |
           flutter build apk --release \
             --build-name=1.0.0 \
             --build-number=$GITHUB_RUN_NUMBER
 
-      - name: Upload AAB Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: app-release-aab
-          path: build/app/outputs/bundle/release/app-release.aab
+      # مرحله ۹: ساخت خروجی AAB (برای کافه بازار)
+      - name: 9. Build App Bundle (AAB)
+        run: |
+          flutter build appbundle --release \
+            --build-name=1.0.0 \
+            --build-number=$GITHUB_RUN_NUMBER
 
-      - name: Upload APK Artifact
+      # مرحله ۱۰: آپلود فایل APK در گیت‌هاب
+      - name: 10. Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-apk
+          name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+
+      # مرحله ۱۱: آپلود فایل AAB در گیت‌هاب
+      - name: 11. Upload AAB Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
