@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.farsi_shehshom_mirza"
+    namespace = "com.parsigram.mirza"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
