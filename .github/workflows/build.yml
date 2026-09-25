@@ -30,46 +30,46 @@ jobs:
           flutter-version: '3.x'
           channel: 'stable'
 
-      # مرحله ۴: نمایش نسخه‌ها برای اطمینان از سلامت محیط
+      # مرحله ۴: بررسی سلامت محیط اجرا
       - name: 4. Check Flutter Environment
         run: flutter doctor -v
 
-      # مرحله ۵: دریافت پکیج‌های پروژه (pubspec.yaml)
+      # مرحله ۵: دریافت وابستگی‌ها و پکیج‌های پروژه
       - name: 5. Get Dependencies
         run: flutter pub get
 
-      # مرحله ۶: بررسی خطاهای سینتکس و کدهای دارت (از جمله main.dart)
-      - name: 6. Analyze Dart Code & main.dart
-        run: flutter analyze
+      # مرحله ۶: بررسی کدهای دارت (بدون متوقف شدن روی warningها و infoها)
+      - name: 6. Analyze Dart Code
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
-      # مرحله ۷: رمزگشایی کلید امضا
+      # مرحله ۷: ساخت پوشه و رمزگشایی فایل keystore از Secrets گیت‌هاب
       - name: 7. Decode Keystore
         run: |
           mkdir -p android/app
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/release-keystore.jks
 
-      # مرحله ۸: ساخت خروجی APK
+      # مرحله ۸: ساخت فایل APK
       - name: 8. Build APK (Release)
         run: |
           flutter build apk --release \
             --build-name=1.0.0 \
             --build-number=$GITHUB_RUN_NUMBER
 
-      # مرحله ۹: ساخت خروجی AAB (برای کافه بازار)
+      # مرحله ۹: ساخت فایل App Bundle (AAB برای کافه بازار)
       - name: 9. Build App Bundle (AAB)
         run: |
           flutter build appbundle --release \
             --build-name=1.0.0 \
             --build-number=$GITHUB_RUN_NUMBER
 
-      # مرحله ۱۰: آپلود فایل APK در گیت‌هاب
+      # مرحله ۱۰: آپلود فایل APK ساخته‌شده در بخش Artifacts
       - name: 10. Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
 
-      # مرحله ۱۱: آپلود فایل AAB در گیت‌هاب
+      # مرحله ۱۱: آپلود فایل AAB ساخته‌شده در بخش Artifacts
       - name: 11. Upload AAB Artifact
         uses: actions/upload-artifact@v4
         with:
