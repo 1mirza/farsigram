@@ -49,9 +49,11 @@ jobs:
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/release-keystore.jks
 
       # مرحله ۸: ساخت فایل APK
+      # مرحله ۸: ساخت فایل APK
       - name: 8. Build APK (Release)
         run: |
           flutter build apk --release \
+            --android-skip-build-dependency-validation \
             --build-name=1.0.0 \
             --build-number=$GITHUB_RUN_NUMBER
 
@@ -59,6 +61,7 @@ jobs:
       - name: 9. Build App Bundle (AAB)
         run: |
           flutter build appbundle --release \
+            --android-skip-build-dependency-validation \
             --build-name=1.0.0 \
             --build-number=$GITHUB_RUN_NUMBER
 
