@@ -1,0 +1,56 @@
+[
+  {
+    "id": "BIO_DEHKHODA",
+    "handle": "dehkhoda_quotes",
+    "name": "علامه علی‌اکبر دهخدا",
+    "title": "پدر فرهنگ‌نویسی نوین",
+    "avatar_color": 4284900969,
+    "avatar_icon": "menu_book",
+    "dialogue_tree": [
+      {
+        "step": 1,
+        "character_msg": "درود بر فرزند کوشای ایران! آیا می‌دانی تألیف کتاب بزرگ لغت‌نامه چند سال زمان برد؟[cite: 8]",
+        "quick_replies": [
+          {
+            "text": "نزدیک به ۴۰ سال[cite: 8]",
+            "is_correct": true,
+            "reply": "آفرین بر دقت تو! بیش از چهل سال کوشش مداوم صرف گردآوری آن شد[cite: 8]. ۱۰ سکه پاداش دانایی‌ات!",
+            "reward": 10
+          },
+          {
+            "text": "۱۰ سال",
+            "is_correct": false,
+            "reply": "پاسخ نادرست است؛ تدوین لغت‌نامه با همکاری یاران نزدیک ۴۰ سال به درازا کشید[cite: 8]."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BIO_FERDOWSI",
+    "handle": "ferdowsi_official",
+    "name": "حکیم ابوالقاسم فردوسی",
+    "title": "حماسه‌سرای بزرگ ایران",
+    "avatar_color": 4293482508,
+    "avatar_icon": "shield",
+    "dialogue_tree": [
+      {
+        "step": 1,
+        "character_msg": "سلام بر پاسدار زبان فارسی. رستم دستان در خان اول با چه جانوری پیکار کرد؟[cite: 8]",
+        "quick_replies": [
+          {
+            "text": "شیر بیشه[cite: 8]",
+            "is_correct": true,
+            "reply": "بارک‌الله! رخش با دلاوری به شیر تاخت و رستم را از خطر رهانید[cite: 8].",
+            "reward": 10
+          },
+          {
+            "text": "اژدها[cite: 8]",
+            "is_correct": false,
+            "reply": "نبرد با اژدها در خان سوم رخ داد[cite: 8]!"
+          }
+        ]
+      }
+    ]
+  }
+]

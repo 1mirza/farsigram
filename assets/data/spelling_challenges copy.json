@@ -1,0 +1,34 @@
+[
+  {
+    "id": "SP_01",
+    "lesson_id": 1,
+    "type": "fill_in",
+    "word_prefix": "مـ",
+    "word_suffix": "ـطفی",
+    "correct_letter": "ص",
+    "distractors": ["س", "ث"],
+    "meaning": "لقب پیامبر گرامی، برگزیده[cite: 5, 10]"
+  },
+  {
+    "id": "SP_02",
+    "lesson_id": 3,
+    "type": "correction",
+    "sentence": "پادشاه از حرکت باز آزُرده خاتر گشت و او را هلاگ کرد.[cite: 10]",
+    "errors": [
+      {"wrong": "خاتر", "correct": "خاطر"},
+      {"wrong": "هلاگ", "correct": "هلاک"}
+    ],
+    "hint": "خاطر با «ط» و هلاک با «ک» نوشته می‌شود[cite: 10]."
+  },
+  {
+    "id": "SP_03",
+    "lesson_id": 10,
+    "type": "correction",
+    "sentence": "محمد از هر فرستی برای آموختن استفاده می‌کرد و مراغب او بودند.[cite: 11]",
+    "errors": [
+      {"wrong": "فرستی", "correct": "فرصتی"},
+      {"wrong": "مراغب", "correct": "مراقب"}
+    ],
+    "hint": "فرصت با «ص» و مراقب با «ق» است (نگارش ص ۶۴)[cite: 11]."
+  }
+]

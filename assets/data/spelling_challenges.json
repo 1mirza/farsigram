@@ -1,0 +1,664 @@
+[
+  {
+    "id": "SP_01_01",
+    "lesson_id": 1,
+    "type": "fill_in",
+    "word_prefix": "فـ",
+    "word_suffix": "ـکرت",
+    "correct_letter": "ک",
+    "distractors": ["ق", "غ"],
+    "meaning": "اندیشه، تفکر (ستایش)"
+  },
+  {
+    "id": "SP_01_02",
+    "lesson_id": 1,
+    "type": "correction",
+    "sentence": "ز فیضش خاکِ آدم گشت گلشن و در او هر چه بگفتند از دیده‌ی خیش بود.",
+    "errors": [
+      {"wrong": "خیش", "correct": "خویش"}
+    ],
+    "hint": "«خویش» به معنی خود است و با ضمیر متصل/جداگانه «و» معدوله نوشته می‌شود."
+  },
+  {
+    "id": "SP_01_03",
+    "lesson_id": 1,
+    "type": "fill_in",
+    "word_prefix": "مرغـ",
+    "word_suffix": "ـزار",
+    "correct_letter": "ز",
+    "distractors": ["ذ", "ض", "ظ"],
+    "meaning": "چمنزار، سبزه زار (معرفت آفریدگار)"
+  },
+  {
+    "id": "SP_01_04",
+    "lesson_id": 1,
+    "type": "correction",
+    "sentence": "غفلت از اندیشه اندر کار خالق، تاریکی و گمراهی افزاید و از سر خشم سیلی زد.",
+    "errors": [
+      {"wrong": "خشم", "correct": "خشم"}
+    ],
+    "hint": "عبارت متن دقیقاً از حکایت محبت است."
+  },
+  {
+    "id": "SP_02_01",
+    "lesson_id": 2,
+    "type": "fill_in",
+    "word_prefix": "خلـ",
+    "word_suffix": "ـقت",
+    "correct_letter": "ق",
+    "distractors": ["غ", "ک"],
+    "meaning": "آفرینش (پنجره‌های شناخت)"
+  },
+  {
+    "id": "SP_02_02",
+    "lesson_id": 2,
+    "type": "correction",
+    "sentence": "پروانه گفت کلمات وظیفه‌ای بر دوش دارند و به رعایت اخلاق و آداب نیک پایبندیم.",
+    "errors": [
+      {"wrong": "آداب", "correct": "آداب"}
+    ],
+    "hint": "آداب با «آ» اول و «ب» پایانی نوشته می‌شود."
+  },
+  {
+    "id": "SP_02_03",
+    "lesson_id": 2,
+    "type": "fill_in",
+    "word_prefix": "مغـ",
+    "word_suffix": "ـرور",
+    "correct_letter": "ر",
+    "distractors": ["ز", "ذ"],
+    "meaning": "خودخواه و خودبین (بخوان و بیندیش هدهد)"
+  },
+  {
+    "id": "SP_02_04",
+    "lesson_id": 2,
+    "type": "correction",
+    "sentence": "هدهد گفت این گرفتاری از طمع نبود بلکه قصمت و سرنوشت بود.",
+    "errors": [
+      {"wrong": "قصمت", "correct": "قسمت"}
+    ],
+    "hint": "«قسمت» با حرف «س» صحیح است."
+  },
+  {
+    "id": "SP_03_01",
+    "lesson_id": 3,
+    "type": "fill_in",
+    "word_prefix": "مـ",
+    "word_suffix": "ـلک",
+    "correct_letter": "ل",
+    "distractors": ["ر", "ن"],
+    "meaning": "پادشاه (درس هوشیاری)"
+  },
+  {
+    "id": "SP_03_02",
+    "lesson_id": 3,
+    "type": "correction",
+    "sentence": "پادشاه از حرکت باز آزُرده خاتر گشت و او را هلاگ کرد.",
+    "errors": [
+      {"wrong": "خاتر", "correct": "خاطر"},
+      {"wrong": "هلاگ", "correct": "هلاک"}
+    ],
+    "hint": "خاطر با «ط» و هلاک با «ک» نوشته می‌شود."
+  },
+  {
+    "id": "SP_03_03",
+    "lesson_id": 3,
+    "type": "fill_in",
+    "word_prefix": "صـ",
+    "word_suffix": "ـواب",
+    "correct_letter": "و",
+    "distractors": ["ا", "ی"],
+    "meaning": "درست و به جا (شعر سخن)"
+  },
+  {
+    "id": "SP_03_04",
+    "lesson_id": 3,
+    "type": "correction",
+    "sentence": "آب ارچه همه زلال خیزد، از خوردن پر ملال خیزد و لاف از سخن توان زد.",
+    "errors": [
+      {"wrong": "زلال", "correct": "زلال"}
+    ],
+    "hint": "زلال با «ز» صحیح است."
+  },
+  {
+    "id": "SP_04_01",
+    "lesson_id": 4,
+    "type": "fill_in",
+    "word_prefix": "عـ",
+    "word_suffix": "ـظمت",
+    "correct_letter": "ظ",
+    "distractors": ["ز", "ض", "ذ"],
+    "meaning": "بزرگی و شکوه (داستان من و شما)"
+  },
+  {
+    "id": "SP_04_02",
+    "lesson_id": 4,
+    "type": "correction",
+    "sentence": "فرزندانی که بر شوکت و شکوه وطن افزوده‌اند و شناسنامه و سند شناخت شما زبان فارسی است.",
+    "errors": [
+      {"wrong": "شوکت", "correct": "شوکت"}
+    ],
+    "hint": "«شوکت» با حرف «ت» دو نقطه در آخر نوشته می‌شود."
+  },
+  {
+    "id": "SP_04_03",
+    "lesson_id": 4,
+    "type": "fill_in",
+    "word_prefix": "تـ",
+    "word_suffix": "ـجربه",
+    "correct_letter": "ج",
+    "distractors": ["ز", "ژ"],
+    "meaning": "آزمودن، آگاهی حاصل از عمل (حکایت علم و عمل)"
+  },
+  {
+    "id": "SP_04_04",
+    "lesson_id": 4,
+    "type": "correction",
+    "sentence": "نور ادب دل را روشن می‌کند و تجربه اندوزی انسان را از جهل و نابودی می‌رهاند.",
+    "errors": [
+      {"wrong": "جهل", "correct": "جهل"}
+    ],
+    "hint": "جهل به معنای نادانی با «ج» و «هـ» دو چشم نوشته می‌شود."
+  },
+  {
+    "id": "SP_05_01",
+    "lesson_id": 5,
+    "type": "fill_in",
+    "word_prefix": "اهـ",
+    "word_suffix": "ـریمنی",
+    "correct_letter": "ر",
+    "distractors": ["ز", "د"],
+    "meaning": "شیطانی، ضد نیکی (هفت خان رستم)"
+  },
+  {
+    "id": "SP_05_02",
+    "lesson_id": 5,
+    "type": "correction",
+    "sentence": "رستم در خان سوم با اژدها نبردی سهمگین کرد و او را کشت و سپاس گزاخت.",
+    "errors": [
+      {"wrong": "گزاخت", "correct": "گزارد"}
+    ],
+    "hint": "«سپاس گزارد» یا «سپاس می‌گزارد» از ریشه گذاردن/گزاردن است و با «ز» نوشته می‌شود."
+  },
+  {
+    "id": "SP_05_03",
+    "lesson_id": 5,
+    "type": "fill_in",
+    "word_prefix": "دستـ",
+    "word_suffix": "ـگاه",
+    "correct_letter": "گ",
+    "distractors": ["ک", "ق"],
+    "meaning": "قدرت، شکوه و امکانات (شعر خان هفتم)"
+  },
+  {
+    "id": "SP_05_04",
+    "lesson_id": 5,
+    "type": "correction",
+    "sentence": "صداهایی از گوشه و کنار کلاس بلند شد: فارسده، فارسده و یونس ذوق‌زده شد.",
+    "errors": [
+      {"wrong": "ذوق‌زده", "correct": "ذوق‌زده"}
+    ],
+    "hint": "«ذوق» با حرف «ذ» صحیح است."
+  },
+  {
+    "id": "SP_06_01",
+    "lesson_id": 6,
+    "type": "fill_in",
+    "word_prefix": "فـ",
+    "word_suffix": "ـروغ",
+    "correct_letter": "ر",
+    "distractors": ["ز", "ل"],
+    "meaning": "روشنایی، نور (درس ای وطن)"
+  },
+  {
+    "id": "SP_06_02",
+    "lesson_id": 6,
+    "type": "correction",
+    "sentence": "ای وطن ای سبزه‌زار بی‌خزان، ای فروغ دیده‌ی آسمان و جاودانه.",
+    "errors": [
+      {"wrong": "دیده‌ی", "correct": "دیده‌ی"}
+    ],
+    "hint": "واژه «دیده» با حرف «د» و «ه» در انتها نوشته می‌شود."
+  },
+  {
+    "id": "SP_06_03",
+    "lesson_id": 6,
+    "type": "fill_in",
+    "word_prefix": "صـ",
+    "word_suffix": "ـبر",
+    "correct_letter": "ب",
+    "distractors": ["پ", "ت"],
+    "meaning": "شکیبایی (حکایت انواع مردم)"
+  },
+  {
+    "id": "SP_06_04",
+    "lesson_id": 6,
+    "type": "correction",
+    "sentence": "بعضی مانند بیماری هستند که باید صبر و تحمل داشته باشیم تا به سلامت رها شویم.",
+    "errors": [
+      {"wrong": "تحمل", "correct": "تحمل"}
+    ],
+    "hint": "«تحمل» با حرف «ح» جیمی نوشته می‌شود."
+  },
+  {
+    "id": "SP_07_01",
+    "lesson_id": 7,
+    "type": "fill_in",
+    "word_prefix": "اشـ",
+    "word_suffix": "ـرف",
+    "correct_letter": "ر",
+    "distractors": ["ز", "ژ"],
+    "meaning": "والاترین، بزرگوارترین (شعر همه از خاک پاک ایرانیم)"
+  },
+  {
+    "id": "SP_07_02",
+    "lesson_id": 7,
+    "type": "correction",
+    "sentence": "شکر داریم کز طفولیت درس حب‌الوطن همی خوانیم و ما انجَب ملل هستیم.",
+    "errors": [
+      {"wrong": "طفولیت", "correct": "طفولیت"}
+    ],
+    "hint": "«طفولیت» با حرف «ط» دسته‌دار نوشته می‌شود."
+  },
+  {
+    "id": "SP_08_01",
+    "lesson_id": 8,
+    "type": "fill_in",
+    "word_prefix": "الـ",
+    "word_suffix": "ـکن",
+    "correct_letter": "ک",
+    "distractors": ["ق", "گ"],
+    "meaning": "دارای لکنت، ناتوان در گفتار (درس دریاقلی)"
+  },
+  {
+    "id": "SP_08_02",
+    "lesson_id": 8,
+    "type": "correction",
+    "sentence": "دریاقلی در گورستانی از اتومبیل‌های فرسوده در کوی ذولفقاری زندگی می‌کرد.",
+    "errors": [
+      {"wrong": "ذولفقاری", "correct": "ذوالفقاری"}
+    ],
+    "hint": "«ذوالفقار» با «ظ» نوشته می‌شود: «ذوالفقاری»."
+  },
+  {
+    "id": "SP_08_03",
+    "lesson_id": 8,
+    "type": "fill_in",
+    "word_prefix": "متـ",
+    "word_suffix": "ـدین",
+    "correct_letter": "د",
+    "distractors": ["ذ", "ض"],
+    "meaning": "دين‌دار، باایمان (بخوان و بیندیش تندگویان)"
+  },
+  {
+    "id": "SP_08_04",
+    "lesson_id": 8,
+    "type": "correction",
+    "sentence": "شهید تندگویان زیر شکنجه‌های بی‌رحمانه‌ی دژخیمان مانند کوهی استوار ایستادگی کرد.",
+    "errors": [
+      {"wrong": "دژخیمان", "correct": "دژخیمان"}
+    ],
+    "hint": "«دژخیم» با حرف «ژ» نوشته می‌شود."
+  },
+  {
+    "id": "SP_09_01",
+    "lesson_id": 9,
+    "type": "fill_in",
+    "word_prefix": "مفـ",
+    "word_suffix": "ـصل",
+    "correct_letter": "ص",
+    "distractors": ["س", "ث"],
+    "meaning": "با جزئیات و طولانی (رنج‌هایی کشیده‌ام که مپرس)"
+  },
+  {
+    "id": "SP_09_02",
+    "lesson_id": 9,
+    "type": "correction",
+    "sentence": "علامه دهخدا برای تالیف لغت‌نامه نزدیک چهل سال کوشش کرد و دچار بیماری سختی شد.",
+    "errors": [
+      {"wrong": "تالیف", "correct": "تألیف"}
+    ],
+    "hint": "«تألیف» با همزه روی «ا» نوشته می‌شود."
+  },
+  {
+    "id": "SP_09_03",
+    "lesson_id": 9,
+    "type": "fill_in",
+    "word_prefix": "تمـ",
+    "word_suffix": "ـنا",
+    "correct_letter": "ن",
+    "distractors": ["م", "ت"],
+    "meaning": "خواهش، آرزو (شعر باران)"
+  },
+  {
+    "id": "SP_09_04",
+    "lesson_id": 9,
+    "type": "correction",
+    "sentence": "در خاک طلب بذر دعا کاشته‌ام و باران اجابت تو را می‌طلبم.",
+    "errors": [
+      {"wrong": "اجابت", "correct": "اجابت"}
+    ],
+    "hint": "«اجابت» با حرف «ج» نوشته می‌شود."
+  },
+  {
+    "id": "SP_10_01",
+    "lesson_id": 10,
+    "type": "fill_in",
+    "word_prefix": "اسـ",
+    "word_suffix": "ـرار",
+    "correct_letter": "ر",
+    "distractors": ["ز", "ذ"],
+    "meaning": "رازها (عطار و جلال‌الدین محمد)"
+  },
+  {
+    "id": "SP_10_02",
+    "lesson_id": 10,
+    "type": "correction",
+    "sentence": "محمد از هر فرستی برای آموختن استفاده می‌کرد و مراغب او بودند.",
+    "errors": [
+      {"wrong": "فرستی", "correct": "فرصتی"},
+      {"wrong": "مراغب", "correct": "مراقب"}
+    ],
+    "hint": "فرصت با «ص» و مراقب با «ق» است."
+  },
+  {
+    "id": "SP_10_03",
+    "lesson_id": 10,
+    "type": "fill_in",
+    "word_prefix": "سـ",
+    "word_suffix": "ـحاب",
+    "correct_letter": "ح",
+    "distractors": ["هـ", "خ"],
+    "meaning": "ابر (حکایت درخت علم)"
+  },
+  {
+    "id": "SP_10_04",
+    "lesson_id": 10,
+    "type": "correction",
+    "sentence": "آن شخص پس از جست‌وجوی بسیار با تمسخر و تعجب روبه‌رو شد و ناامید گشت.",
+    "errors": [
+      {"wrong": "تمسخر", "correct": "تمسخر"}
+    ],
+    "hint": "«تمسخر» با «س» و «خ» نوشته می‌شود."
+  },
+  {
+    "id": "SP_11_01",
+    "lesson_id": 11,
+    "type": "fill_in",
+    "word_prefix": "شقـ",
+    "word_suffix": "ـایق",
+    "correct_letter": "ا",
+    "distractors": ["ع", "هـ"],
+    "meaning": "گل سرخ‌رنگ (شهدا خورشیدند)"
+  },
+  {
+    "id": "SP_11_02",
+    "lesson_id": 11,
+    "type": "correction",
+    "sentence": "مرتضی گفت شهید چون شقایق سرخ است و مصطفی گفت داخل دفتر قلب می‌ماند.",
+    "errors": [
+      {"wrong": "شقایق", "correct": "شقایق"}
+    ],
+    "hint": "واژه «شقایق» با دو حرف «ق» نوشته می‌شود."
+  },
+  {
+    "id": "SP_11_03",
+    "lesson_id": 11,
+    "type": "fill_in",
+    "word_prefix": "استـ",
+    "word_suffix": "ـعداد",
+    "correct_letter": "ع",
+    "distractors": ["ا", "ء"],
+    "meaning": "توانایی فطری و هوش (بوعلی و بهمنیار)"
+  },
+  {
+    "id": "SP_11_04",
+    "lesson_id": 11,
+    "type": "correction",
+    "sentence": "استعداد خدادادی کم‌نظیر بوعلی، بهمنیار را دچار شگفتی کرده بود.",
+    "errors": [
+      {"wrong": "کم‌نظیر", "correct": "کم‌نظیر"}
+    ],
+    "hint": "«کم‌نظیر» با «ظ» نوشته می‌شود."
+  },
+  {
+    "id": "SP_12_01",
+    "lesson_id": 12,
+    "type": "fill_in",
+    "word_prefix": "مشـ",
+    "word_suffix": "ـفق",
+    "correct_letter": "ف",
+    "distractors": ["ق", "غ"],
+    "meaning": "مهربان و دلسوز (دوستی و مشاوره)"
+  },
+  {
+    "id": "SP_12_02",
+    "lesson_id": 12,
+    "type": "correction",
+    "sentence": "مشاورت کردن در کارها از قوی رایی مردم باشد و از تمام عقلی و پیش‌بینی.",
+    "errors": [
+      {"wrong": "مشاورت", "correct": "مشاورت"}
+    ],
+    "hint": "«مشاورت» با حرف «ت» در آخر صحیح است."
+  },
+  {
+    "id": "SP_12_03",
+    "lesson_id": 12,
+    "type": "fill_in",
+    "word_prefix": "مسـ",
+    "word_suffix": "ـاکین",
+    "correct_letter": "ا",
+    "distractors": ["ع", " هـ"],
+    "meaning": "بینوایان، فقیران (شعر شیر خدا)"
+  },
+  {
+    "id": "SP_12_04",
+    "lesson_id": 12,
+    "type": "correction",
+    "sentence": "ناشناسی که به تاریکی شب می‌برد شام یتیمان عرب و در مسجد کوفه مناجات می‌کرد.",
+    "errors": [
+      {"wrong": "یتیمان", "correct": "یتیمان"}
+    ],
+    "hint": "یتیمان با حرف «ت» دو نقطه نوشته می‌شود."
+  },
+  {
+    "id": "SP_13_01",
+    "lesson_id": 13,
+    "type": "fill_in",
+    "word_prefix": "مـ",
+    "word_suffix": "ـذلت",
+    "correct_letter": "ذ",
+    "distractors": ["ز", "ض", "ظ"],
+    "meaning": "خواری و پست‌شدن (حکایت عمر گران‌مایه)"
+  },
+  {
+    "id": "SP_13_02",
+    "lesson_id": 13,
+    "type": "correction",
+    "sentence": "توانگر گفت چرا خدمت نکنی تا از مشقت کار کردن برهی؟",
+    "errors": [
+      {"wrong": "مشقت", "correct": "مشقت"}
+    ],
+    "hint": "«مشقت» با حرف «ق» و «ت» نوشته می‌شود."
+  },
+  {
+    "id": "SP_14_01",
+    "lesson_id": 14,
+    "type": "fill_in",
+    "word_prefix": "شکـ",
+    "word_suffix": "ـفتن",
+    "correct_letter": "ف",
+    "distractors": ["پ", "ق"],
+    "meaning": "باز شدن گل (راز زندگی)"
+  },
+  {
+    "id": "SP_14_02",
+    "lesson_id": 14,
+    "type": "correction",
+    "sentence": "گل به خنده گفت زندگی شکفتن است و با زبان سبز راز گفتن است.",
+    "errors": [
+      {"wrong": "شکفتن", "correct": "شکفتن"}
+    ],
+    "hint": "«شکفتن» با «ک» و «ف» صحیح است."
+  },
+  {
+    "id": "SP_14_03",
+    "lesson_id": 14,
+    "type": "fill_in",
+    "word_prefix": "بـ",
+    "word_suffix": "ـزاز",
+    "correct_letter": "ز",
+    "distractors": ["ذ", "ض"],
+    "meaning": "پارچه‌فروش (بخوان و بیندیش پیاده و سوار)"
+  },
+  {
+    "id": "SP_14_04",
+    "lesson_id": 14,
+    "type": "correction",
+    "sentence": "مرد بزاز که بسته‌ی پارچه‌ها را بر دوش داشت بسیار خسته شده بود.",
+    "errors": [
+      {"wrong": "بزاز", "correct": "بزاز"}
+    ],
+    "hint": "«بزاز» با دو حرف «ز» نوشته می‌شود."
+  },
+  {
+    "id": "SP_15_01",
+    "lesson_id": 15,
+    "type": "fill_in",
+    "word_prefix": "ادـ",
+    "word_suffix": "ـبار",
+    "correct_letter": "ب",
+    "distractors": ["پ", "ت"],
+    "meaning": "بدبختی، سیه‌روزی (میوه هنر)"
+  },
+  {
+    "id": "SP_15_02",
+    "lesson_id": 15,
+    "type": "correction",
+    "sentence": "دهقان چون تنور خود از این هیمه برافروخت بگریست سپیدار از آتش ادبار.",
+    "errors": [
+      {"wrong": "ادبار", "correct": "ادبار"}
+    ],
+    "hint": "«ادبار» به معنی سیه‌روزی با حرف «د» نوشته می‌شود."
+  },
+  {
+    "id": "SP_15_03",
+    "lesson_id": 15,
+    "type": "fill_in",
+    "word_prefix": "جـ",
+    "word_suffix": "ـاهل",
+    "correct_letter": "ا",
+    "distractors": ["ع", "هـ"],
+    "meaning": "نادان (حکایت افلاطون و مرد جاهل)"
+  },
+  {
+    "id": "SP_15_04",
+    "lesson_id": 15,
+    "type": "correction",
+    "sentence": "افلاطون گفت برای من از این بدتر چیست که جاهلی مرا بستاید.",
+    "errors": [
+      {"wrong": "بستاید", "correct": "بستاید"}
+    ],
+    "hint": "«بستاید» از مصدر ستودن است."
+  },
+  {
+    "id": "SP_16_01",
+    "lesson_id": 16,
+    "type": "fill_in",
+    "word_prefix": "اعـ",
+    "word_suffix": "ـتدال",
+    "correct_letter": "ت",
+    "distractors": ["ط", "ث"],
+    "meaning": "میانه روی (آداب مطالعه)"
+  },
+  {
+    "id": "SP_16_02",
+    "lesson_id": 16,
+    "type": "correction",
+    "sentence": "چون زوال ملک و مال سلاطین گذشته شنود، دل از مال دنیا بردارد.",
+    "errors": [
+      {"wrong": "زوال", "correct": "زوال"}
+    ],
+    "hint": "«زوال» با حرف «ز» نوشته می‌شود."
+  },
+  {
+    "id": "SP_16_03",
+    "lesson_id": 16,
+    "type": "fill_in",
+    "word_prefix": "کـ",
+    "word_suffix": "ـژی",
+    "correct_letter": "ژ",
+    "distractors": ["ز", "ذ"],
+    "meaning": "انحراف، نادرستی (شعر به گیتی به از راستی پیشه نیست)"
+  },
+  {
+    "id": "SP_16_04",
+    "lesson_id": 16,
+    "type": "correction",
+    "sentence": "به گیتی به از راستی پیشه نیست، ز کژی بتر هیچ اندیشه نیست.",
+    "errors": [
+      {"wrong": "کژی", "correct": "کژی"}
+    ],
+    "hint": "«کژی» با حرف «ژ» صحیح است."
+  },
+  {
+    "id": "SP_17_01",
+    "lesson_id": 17,
+    "type": "fill_in",
+    "word_prefix": "وصـ",
+    "word_suffix": "ـیت",
+    "correct_letter": "ی",
+    "distractors": ["ئ", "ا"],
+    "meaning": "سفارش و اندرز (ستاره روشن)"
+  },
+  {
+    "id": "SP_17_02",
+    "lesson_id": 17,
+    "type": "correction",
+    "sentence": "بزرگمهر حکیم برادران را وصیت کرد که در کتب خوانده‌ام آخرالزمان پیامبری خواهد آمد.",
+    "errors": [
+      {"wrong": "وصیت", "correct": "وصیت"}
+    ],
+    "hint": "«وصیت» با حرف «ص» صابون نوشته می‌شود."
+  },
+  {
+    "id": "SP_17_03",
+    "lesson_id": 17,
+    "type": "fill_in",
+    "word_prefix": "حصـ",
+    "word_suffix": "ـیر",
+    "correct_letter": "ی",
+    "distractors": ["ا", "و"],
+    "meaning": "زیرانداز بافته شده از نی یا پوشال (آوای گنجشکان)"
+  },
+  {
+    "id": "SP_17_04",
+    "lesson_id": 17,
+    "type": "correction",
+    "sentence": "ممنون بر حصیر زانو زد و گفت ای شیخ مرا چیزی بیاموز و نصیحتی کن.",
+    "errors": [
+      {"wrong": "حصیر", "correct": "حصیر"}
+    ],
+    "hint": "«حصیر» با حرف «ص» صحیح است."
+  },
+  {
+    "id": "SP_17_05",
+    "lesson_id": 17,
+    "type": "fill_in",
+    "word_prefix": "رستـ",
+    "word_suffix": "ـگار",
+    "correct_letter": "گ",
+    "distractors": ["ک", "ق"],
+    "meaning": "نجات‌یافته، عاقبت‌به‌خیر (نیایش)"
+  },
+  {
+    "id": "SP_17_06",
+    "lesson_id": 17,
+    "type": "correction",
+    "sentence": "رهی پیشم آور که فرجام کار تو خشنود باشی و ما رستگار.",
+    "errors": [
+      {"wrong": "رستگار", "correct": "رستگار"}
+    ],
+    "hint": "«رستگار» با حرف «گ» نوشته می‌شود."
+  }
+]

@@ -1,40 +1,35 @@
-name: farsi_shehshom_mirza
-description: "بازی آموزشی فارسی ششم دبستان - شهرزاد"
+name: parsigram
+description: "پارسی‌گرام ششم — اپ آموزش فارسی پایه‌ی ششم به سبک شبکه‌ی اجتماعی"
 publish_to: 'none'
-
-version: 1.0.0+1
+version: 2.0.0+2
 
 environment:
-  sdk: '>=3.2.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  
-  # آیکون‌های استایل iOS
-  cupertino_icons: ^1.0.6
-  
-  # برای انیمیشن‌های جذاب
-  lottie: ^3.1.0
-  
-  # برای پشتیبانی کامل از راست‌چین (RTL) و زبان فارسی
   flutter_localizations:
     sdk: flutter
-  shared_preferences: ^2.5.3
+  shared_preferences: ^2.2.3
+  screenshot: ^3.0.0
+  share_plus: ^10.1.4
+  path_provider: ^2.1.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/data/
-    # - assets/images/
 
   fonts:
     - family: Vazir
       fonts:
         - asset: assets/fonts/Vazir.ttf
+        - asset: assets/fonts/Vazir-Bold.ttf
+          weight: 700
