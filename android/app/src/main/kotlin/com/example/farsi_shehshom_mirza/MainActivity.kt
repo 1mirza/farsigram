@@ -1,4 +1,4 @@
-package com.example.farsi_shehshom_mirza
+package com.parsigram.mirza
 
 import io.flutter.embedding.android.FlutterActivity
 
